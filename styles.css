@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+  font-size: 18px;
+}
+
+.main-img {
+  width: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  min-height: 100vh;
+}
+
+.heading {
+  font-size: 3.85rem;
+}
+
+p {
+  color: hsl(0, 0%, 41%);
+}
+
+.btn-black {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+  font-size: 18px;
+  padding: 0.75rem 1.5rem;
+}
+
+.logos img {
+  width: auto;
+  height: auto;
+  margin-right: 2rem;
+}
+
+.space {
+  margin-top: 9rem;
+}
+.btn-outline-black {
+  border: 1px solid black;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.icons img {
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+}
+
+#reminder {
+  margin-left: 0.55rem;
+  margin-right: 1.15rem;
+}
+
+#planning {
+  margin-left: 0.5rem;
+}
